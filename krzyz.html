@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbolika</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="krzyz.js"></script>
+</head>
+<body onload="init()">
+<div class="container">
+
+  <header>
+    <ul class="menu">
+      <li><a href="index.html">Strona Główna</a></li>
+      <li><a href="krzyz.html">Krzyż</a></li>
+      <li><a href="lilijka.html">Lilijka</a></li>
+      <li><a href="waggs.html">WAGGS</a></li>
+      <li><a href="wosm.html">WOSM</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="krzyz">
+        <h2>Symbolika Krzyża Harcerskiego</h2>
+
+        <canvas id="canvas" width="600px" height="600px"></canvas>
+
+        <div class="buttons">
+            <button class="krzyzbttn" type="button" onclick="info1()" id="bttn1">Okrąg pośrodku krzyża</button><br>
+            <button class="krzyzbttn" type="button" onclick="info2()" id="bttn2">Promienie rozchodzącę się od lilijki</button><br>
+            <button class="krzyzbttn" type="button" onclick="info3()" id="bttn3">Wieniec z dębu i wawrzynu</button><br>
+            <button class="krzyzbttn" type="button" onclick="info4()" id="bttn4">Hasło "Czuwaj"</button><br>
+            <button class="krzyzbttn" type="button" onclick="info5()" id="bttn5">Ziarna piasku na ramionach Krzyża Harcerskiego</button><br>
+            <button class="krzyzbttn" type="button" onclick="info6()" id="bttn6">Puste miejsce pomiędzy ziarenkami piasku</button><br>
+            <button class="krzyzbttn" type="button" onclick="info7()" id="bttn7">Dwie gwiazdki na lilijce</button><br>
+            <button class="krzyzbttn" type="button" onclick="info8()" id="bttn8">Trzy żołędzie na wieńcu dębowym krzyża</button><br>
+        </div>
+
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Marcin Smyk 1 RDSH "Wind Rose"</p>
+  </footer>
+
+  <img src="img/krzyz.jpg" id="krzyz" style="display: none;">
+
+</div>
+</body>
+</html>

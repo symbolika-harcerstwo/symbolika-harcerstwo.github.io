@@ -1,0 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Czuwaj!
+
+Strona, na której właśnie się znajdujesz, została stworzona na potrzeby próby mojej na krzyż,
+jednak nie mam problemu z dalszym wykorzystywaniem moich treści.
+Dziękuję za odwiedzenie mojej strony i życzę miłego przeglądania.
+
+Czerwiec 2024
+
+Marcin Smyk
+1 RDSH "Wind Rose"
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQSGe1HLSJMkceKyxSDfhhxeaumqAUCZmN3UQAKCRCDfhhxeaum
+qGb0AP9ymqQ80BpGiLckrB4k5qnicpxCmDSF9ad5ZxVROKW7xgD+PiKsaBQ6uUeM
+J5mgJVSMvGWZNP4GQJ1d0LFfE9sruQE=
+=I6yF
+-----END PGP SIGNATURE-----

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbolika</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="waggs.js"></script>
+</head>
+<body onload="init()">
+<div class="container">
+
+  <header>
+    <ul class="menu">
+      <li><a href="index.html">Strona Główna</a></li>
+      <li><a href="krzyz.html">Krzyż</a></li>
+      <li><a href="lilijka.html">Lilijka</a></li>
+      <li><a href="waggs.html">WAGGS</a></li>
+      <li><a href="wosm.html">WOSM</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="krzyz">
+        <h2>Symbolika WAGGS</h2>
+
+        <canvas id="canvas" width="600px" height="600px"></canvas>
+
+        <div class="buttons">
+            <button class="waggsbttn" type="button" onclick="info1()" id="bttn1">Trzy listki koniczyny</button><br>
+            <button class="waggsbttn" type="button" onclick="info2()" id="bttn2">Dwie pięcioramienne gwiazdki</button><br>
+            <button class="waggsbttn" type="button" onclick="info3()" id="bttn3">Żyłka koniczynki</button><br>
+            <button class="waggsbttn" type="button" onclick="info4()" id="bttn4">Łodyżka koniczyny</button><br>
+            <button class="waggsbttn" type="button" onclick="info5()" id="bttn5">Kolory złoty i niebieski</button>
+        </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Marcin Smyk 1 RDSH "Wind Rose"</p>
+  </footer>
+
+  <img src="img/waggs.png" id="waggs" style="display: none;">
+
+</div>
+</body>
+</html>

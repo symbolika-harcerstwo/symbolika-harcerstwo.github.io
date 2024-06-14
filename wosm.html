@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbolika</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="wosm.js"></script>
+</head>
+<body onload="init()">
+<div class="container">
+
+  <header>
+    <ul class="menu">
+      <li><a href="index.html">Strona Główna</a></li>
+      <li><a href="krzyz.html">Krzyż</a></li>
+      <li><a href="lilijka.html">Lilijka</a></li>
+      <li><a href="waggs.html">WAGGS</a></li>
+      <li><a href="wosm.html">WOSM</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="krzyz">
+        <h2>Symbolika WOSM</h2>
+
+        <canvas id="canvas" width="600px" height="600px"></canvas>
+
+        <div class="buttons">
+            <button class="wosmbttn" type="button" onclick="info1()" id="bttn1">Lilijka</button><br>
+            <button class="wosmbttn" type="button" onclick="info2()" id="bttn2">Strzałka</button><br>
+            <button class="wosmbttn" type="button" onclick="info3()" id="bttn3">Trzy ramiona lilijki</button><br>
+            <button class="wosmbttn" type="button" onclick="info4()" id="bttn4">Dwie pięcioramienne gwiazdki</button><br>
+            <button class="wosmbttn" type="button" onclick="info5()" id="bttn5">Kolor biały</button><br>
+            <button class="wosmbttn" type="button" onclick="info6()" id="bttn6">Kolor purpurowy</button><br>
+            <button class="wosmbttn" type="button" onclick="info7()" id="bttn7">Lina związana węzłem płaskim</button>
+
+        </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Marcin Smyk 1 RDSH "Wind Rose"</p>
+  </footer>
+
+  <img src="img/wosm.png" id="wosm" style="display: none;">
+
+</div>
+</body>
+</html>
