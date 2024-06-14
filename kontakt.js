@@ -5,7 +5,7 @@ document.getElementById('form').addEventListener('submit', async function(event)
     const message = document.getElementById('message').value;
 
     const payload = {
-        content: `# Nowa Wiadomość!/n**Imię:**\n\`\`\`${name}\`\`\`\n**Wiadomość:**\n\`\`\`${message}\`\`\``
+        content: `# Nowa Wiadomość!\n**Imię:**\n\`\`\`${name}\`\`\`\n**Wiadomość:**\n\`\`\`${message}\`\`\``
     };
 
     try {
